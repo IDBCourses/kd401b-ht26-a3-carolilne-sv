@@ -1,0 +1,34 @@
+:root {
+    --bg: #f7f9fa;
+    --text-primary: #2c3439;
+    --main: #53727b;
+    --accent: #4891a2;
+    //HSL hover: keep hue and sturation the same, reduce lightness
+    --accent-hover: hsl(194, 58%, 36%);
+}
+
+body {
+    background-color:var(--bg);
+    color: var(--text-primary);
+}
+
+p {
+    color: var(--text-primary);
+}
+.secondary-text{
+    color:var(--text-secondary);
+}
+.main-color{
+    color:var(--main);
+}
+.btn, a{
+    background-color: var(--accent);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    display:inline-block;
+}
+.btn:hover, a:hover{
+    background-color:var(--accent-hover);
+}
