@@ -3,7 +3,7 @@
     --text-primary: #2c3439;
     --main: #53727b;
     --accent: #4891a2;
-    //HSL hover: keep hue and sturation the same, reduce lightness
+    // HSL hover: keep hue and sturation the same, reduce lightness
     --accent-hover: hsl(194, 58%, 36%);
 }
 
@@ -32,3 +32,10 @@ p {
 .btn:hover, a:hover{
     background-color:var(--accent-hover);
 }
+ul{
+    list-style:none;
+    padding-left:0;
+    display:flex;
+    gap:1rem;
+}
+
