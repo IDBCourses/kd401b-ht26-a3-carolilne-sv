@@ -40,3 +40,18 @@ ul {
   display: flex;
   gap: 1rem;
 }
+
+/*added: fix contrast for the text links in nav/aside/footer*/
+nav a,
+aside a,
+footer a {
+  color: var(--text-primary);
+  background: transparent;
+}
+nav a:hover,
+aside a:hover,
+footer a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+  background: transparent;
+}
